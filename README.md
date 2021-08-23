@@ -2,7 +2,7 @@
 
 ## Resumo
 
-Este projeto foi um desafio proposto pela empresa IPAM - Instituto de Pesquisa Ambiental da Amazônia, referente a vaga de desenvolvedor. O objetivo era contruir uma aplicação usando a Api do IBGE.
+Este projeto foi um desafio proposto pela empresa IPAM - Instituto de Pesquisa Ambiental da Amazônia, referente a vaga de desenvolvedor. O objetivo era construir uma aplicação usando a Api do IBGE.
 
 ## Requisitos
 
@@ -12,11 +12,11 @@ Criar uma aplicação fazendo o uso do React e Redux para controle dos estados. 
 - Utilizar os reducers do Redux;
 - Utilizar as actions do Redux:
 
-## Result
+## Resultado Final
 
 ![image](https://user-images.githubusercontent.com/78332530/130503123-f2b5b374-9957-49d6-aa8b-337b3e200570.png)
 
-## Dependencies
+## Dependências
 
 - React
   > https://reactjs.org/docs/getting-started.html
@@ -29,19 +29,19 @@ Criar uma aplicação fazendo o uso do React e Redux para controle dos estados. 
 - redux-devtools-extension
   > https://github.com/zalmoxisus/redux-devtools-extension
 
-### Installing dependencies
+### Instalando Dependências
 
-In the project directory, you can run:
+No diretório do pojeto, você pode escrever:
 
 `npm install`
 
-and run the project typing:
+E começar o projeto com:
 `yarn start`
-or
+ou
 `npm run start`
 
-It runs in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Roda no modo desenvolver. Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
 
-## Test live application
+## Testar a aplicação
 
 > [Netlify app link](https://react-ibge.netlify.app/)
