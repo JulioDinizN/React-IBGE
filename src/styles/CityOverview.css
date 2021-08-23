@@ -1,0 +1,60 @@
+.card {
+  opacity: 0;
+  color: blue;
+  background-color: white;
+  padding: 30px 20px;
+  font-family: Roboto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 16px;
+  width: 350px;
+  min-height: 145px;
+  animation: showCard 300ms ease-in-out forwards;
+  box-shadow: 1px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes showCard {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.left,
+.right {
+  text-align: left;
+  width: 50%;
+}
+
+.card .info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .info ~ .info {
+  margin-top: 20px;
+}
+
+.card .info .title {
+  font-size: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #8fa0b1;
+  text-transform: uppercase;
+}
+
+.card .info .content {
+  width: 75%;
+}
+
+.card .info .value {
+  color: #104175;
+  font-weight: bold;
+}
