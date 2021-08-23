@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1 style={title}>React IBGE</h1>
+        <h1>React IBGE</h1>
       </div>
       <div className="selects">
         <SelectState />
@@ -19,5 +19,3 @@ function App() {
 }
 
 export default App;
-
-const title = {};
