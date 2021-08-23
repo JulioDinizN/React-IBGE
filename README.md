@@ -31,7 +31,7 @@ Criar uma aplicação fazendo o uso do React e Redux para controle dos estados. 
 
 ### Instalando Dependências
 
-No diretório do pojeto, você pode escrever:
+No diretório do projeto, você pode escrever:
 
 `npm install`
 
@@ -40,7 +40,7 @@ E começar o projeto com:
 ou
 `npm run start`
 
-Roda no modo desenvolver. Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
+Roda no modo desenvolvedor. Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
 
 ## Testar a aplicação
 
