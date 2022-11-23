@@ -1,22 +1,26 @@
 # React IBGE
 
-## Resumo
+## Briefing
 
-Este projeto foi um desafio proposto pela empresa IPAM - Instituto de Pesquisa Ambiental da Amazônia, referente a vaga de desenvolvedor. O objetivo era construir uma aplicação usando a Api do IBGE.
+This project was an interview challenge for a position of Full-stack devloper at IPAM - Instituto de Pesquisa Ambiental da Amazônia. The main goal was to build an webapp that would comunicate with the IBGE - Instituto Brasileiro de Geografia e Estatística, API.
 
-## Requisitos
+## Requirements
 
-Criar uma aplicação fazendo o uso do React e Redux para controle dos estados. Existem três conceitos chaves que precisam ser utilizados para alcançar este objetivo:
+Build an webapp that uses React and Redux to control the UI. There are three concepts that are mandatory to complete this challenge:
 
-- Utilizar a store do Redux;
-- Utilizar os reducers do Redux;
-- Utilizar as actions do Redux:
+- Utilize Redux Store
+- Utilize Redux Reducers
+- Utilize Redux Actions
 
-## Resultado Final
+## Final Result
 
 ![image](https://user-images.githubusercontent.com/78332530/130503123-f2b5b374-9957-49d6-aa8b-337b3e200570.png)
 
-## Dependências
+## Live Version
+
+> [Netlify app link](https://react-ibge.netlify.app/)
+
+## Dependencies
 
 - React
   > https://reactjs.org/docs/getting-started.html
@@ -29,19 +33,9 @@ Criar uma aplicação fazendo o uso do React e Redux para controle dos estados. 
 - redux-devtools-extension
   > https://github.com/zalmoxisus/redux-devtools-extension
 
-### Instalando Dependências
+### Project Setup
 
-No diretório do projeto, você pode escrever:
-
-`npm install`
-
-E começar o projeto com:
-`yarn start`
-ou
-`npm run start`
-
-Roda no modo desenvolvedor. Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
-
-## Testar a aplicação
-
-> [Netlify app link](https://react-ibge.netlify.app/)
+1. Clone the repository
+2. cd React-IBGE
+3. `npm install # or yarn`
+4. `npm run dev # or yarn dev`
